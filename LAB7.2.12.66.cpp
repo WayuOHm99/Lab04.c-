@@ -2,10 +2,11 @@
 #include <iostream>
 #include <ctype.h>
 #include <stdlib.h>
-#include <cmath>
+
 using namespace std;
 
-int main(){
+int main()
+{
 	float num1, num2, result;
 	char mark;
 	
@@ -25,10 +26,10 @@ int main(){
 			result=num1/num2;
 			break;
 		case'>':
-			cout << "ERROR" << endl;
+			cout << "" << endl;
 			exit(0);
 		default:
-			cout << "Incalid make!!" << endl;
+			cout << "Invalid mark!!" << endl;
 			exit(0);
 	}
 	
